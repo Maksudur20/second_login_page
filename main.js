@@ -13,7 +13,7 @@ loginLink.addEventListener('click', () => {
 let formId = document.getElementById("login-form");
 
 formId.addEventListener('submit', (e) => {
-   
+    e.preventDefault(); 
 
     let email = document.getElementById("email").value;
     let pass = document.getElementById("password").value;
