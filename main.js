@@ -15,7 +15,7 @@ loginLink.addEventListener('click', () => {
 
 let formId = document.getElemenyById("login-form");
 
-formId.addEventlistener('submit', (e)=>{
+formId.addEventlistener('submit', (e) => {
 e.preventDefault();  
 let email = document.getElementById("email").value;
 let pass = document.getElementByid("password").value;
