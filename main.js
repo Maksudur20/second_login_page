@@ -16,9 +16,10 @@ loginLink.addEventListener('click', () => {
 let formId = document.getElemenyById("login-form");
 
 formId.addEventlistener('submit', (e)=>{
- let email = document.getElementById("email").value;
+e.preventDefault();  
+let email = document.getElementById("email").value;
 let pass = document.getElementByid("password").value;
-e.preventDefault();
+
 if(email === "admin@gmail.com" && pass === "admin")
   {
     console.log("logged in");
