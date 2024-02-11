@@ -19,7 +19,7 @@ formId.addEventlistener('submit', (e)=>{
  let email = document.getElementById("email").value;
 let pass = document.getElementByid("password").value;
 
-  if(email === "admin@gmail.com" && pass === "admin")
+if(email === "admin@gmail.com" && pass === "admin")
   {
     console.log("logged in");
   }
